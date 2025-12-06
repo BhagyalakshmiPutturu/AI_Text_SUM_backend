@@ -74,28 +74,6 @@ python manage.py runserver
 
 Visit: `http://127.0.0.1:8000/`
 
-## 📁 Project Structure
-summarizer_project/
-├── summarizer/              # Main Django app
-│   ├── migrations/          # Database migrations
-│   ├── __init__.py
-│   ├── admin.py            # Admin configuration
-│   ├── apps.py             # App configuration
-│   ├── models.py           # Database models
-│   ├── serializers.py      # DRF serializers
-│   ├── urls.py             # URL routing
-│   └── views.py            # View logic
-├── summarizer_project/      # Project settings
-│   ├── __init__.py
-│   ├── asgi.py
-│   ├── settings.py         # Django settings
-│   ├── urls.py             # Root URL configuration
-│   └── wsgi.py
-├── .gitignore              # Git ignore file
-├── manage.py               # Django management script
-├── requirements.txt        # Python dependencies
-└── README.md              # Project documentation
-```
 
 ## 🔑 Getting OpenAI API Key
 
